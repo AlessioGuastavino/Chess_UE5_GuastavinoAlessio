@@ -1,0 +1,39 @@
+﻿  Using bundled DotNet SDK version: 6.0.302
+  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" ChessEditor Win64 Development -Project="C:\Users\alegu\Documents\Unreal Projects\Chess\Chess.uproject" -WaitMutex -FromMsBuild
+  Log file: C:\Users\alegu\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\alegu\Documents\Unreal Projects\Chess).
+  Parsing headers for ChessEditor
+    Running Internal UnrealHeaderTool "C:\Users\alegu\Documents\Unreal Projects\Chess\Chess.uproject" "C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\ChessEditor\Development\ChessEditor.uhtmanifest" -WarningsAsErrors -installed
+  Total of 2 written
+  Reflection code generated for ChessEditor in 4.195311 seconds
+  Building ChessEditor...
+  Using Visual Studio 2022 14.39.33522 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Upgrade]
+  [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+  [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1
+  [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_2;' in ChessEditor.Target.cs.
+  [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+  [Upgrade]
+  Determining max actions to execute in parallel (4 physical cores, 8 logical cores)
+    Executing up to 4 processes, one per physical core
+    Requested 1.5 GB free memory per action, 484.35 MB available: limiting max parallel actions to 1
+  Building 15 actions with 1 process...
+  [1/15] Compile [x64] Chess_MinimaxPlayer.cpp
+  [2/15] Compile [x64] Chess.init.gen.cpp
+  [3/15] Compile [x64] Chess_GameMode.cpp
+  [4/15] Compile [x64] Chess_HumanPlayer.cpp
+  [5/15] Compile [x64] Chess_GameField.cpp
+  [6/15] Compile [x64] Chess_GameMode.gen.cpp
+  [7/15] Compile [x64] Square.cpp
+  [8/15] Compile [x64] Chess_MinimaxPlayer.gen.cpp
+  [9/15] Compile [x64] Chess_RandomPlayer.cpp
+  [10/15] Compile [x64] Chess_PlayerController.cpp
+  [11/15] Compile [x64] Chess_PlayerController.gen.cpp
+  [12/15] Compile [x64] Chess_RandomPlayer.gen.cpp
+  [13/15] Link [x64] UnrealEditor-Chess.dll
+     Creazione della libreria C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\UnrealEditor-Chess.suppressed.lib e dell'oggetto C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\UnrealEditor-Chess.suppressed.exp
+  [14/15] Link [x64] UnrealEditor-Chess.lib
+     Creazione della libreria C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\UnrealEditor-Chess.lib e dell'oggetto C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\UnrealEditor-Chess.exp
+  [15/15] WriteMetadata ChessEditor.target
+  Total time in Parallel executor: 160.55 seconds
+  Total execution time: 168.39 seconds

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\alegu\\documents\\unreal projects\\chess\\intermediate\\build\\win64\\unrealeditor\\inc\\chess\\uht\\chess_gameinstance.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\alegu\\documents\\unreal projects\\chess\\intermediate\\build\\win64\\x64\\chesseditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "c:\\users\\alegu\\documents\\unreal projects\\chess\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\chess\\definitions.chess.h",
+            "c:\\users\\alegu\\documents\\unreal projects\\chess\\source\\chess\\public\\chess_gameinstance.h",
+            "c:\\users\\alegu\\documents\\unreal projects\\chess\\intermediate\\build\\win64\\unrealeditor\\inc\\chess\\uht\\chess_gameinstance.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

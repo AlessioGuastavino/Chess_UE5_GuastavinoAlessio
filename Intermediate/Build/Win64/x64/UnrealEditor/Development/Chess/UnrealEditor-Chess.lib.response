@@ -1,0 +1,39 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Chess.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\ChessEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess.init.gen.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\ChessGameModeBase.gen.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_GameField.gen.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_GameInstance.gen.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_GameMode.gen.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_HumanPlayer.gen.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_MinimaxPlayer.gen.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_PlayerController.gen.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_PlayerInterface.gen.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_RandomPlayer.gen.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\DynamicPiece.gen.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Historical.gen.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Move.gen.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Square.gen.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\ChessGameModeBase.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_GameField.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_GameInstance.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_GameMode.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_HumanPlayer.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_MinimaxPlayer.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_PlayerController.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_PlayerInterface.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Chess_RandomPlayer.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\DynamicPiece.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Historical.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Move.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Square.cpp.obj"
+"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\Default.rc2.res"
+/OUT:"C:\Users\alegu\Documents\Unreal Projects\Chess\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chess\UnrealEditor-Chess.lib"

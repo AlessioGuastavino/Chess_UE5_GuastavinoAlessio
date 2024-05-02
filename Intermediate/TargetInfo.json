@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Chess",
+			"Path": "C:\\Users\\alegu\\Documents\\Unreal Projects\\Chess\\Source\\Chess.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ChessEditor",
+			"Path": "C:\\Users\\alegu\\Documents\\Unreal Projects\\Chess\\Source\\ChessEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

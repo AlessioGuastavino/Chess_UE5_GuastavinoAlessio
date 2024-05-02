@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Chess.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Chess.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ChessEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{ED49A36C-4FD5-37E5-A2AC-E11BEF4F21CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens">
+      <UniqueIdentifier>{28125F47-4973-377C-9D77-EBC3C72EC856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens\Config">
+      <UniqueIdentifier>{D3BF39CB-FA64-39E2-A327-B5021BA69773}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\HoloLens\Config\HoloLensEngine.ini">
+      <Filter>Platforms\HoloLens\Config</Filter>
+    </None>
+    <Filter Include="Source\Chess">
+      <UniqueIdentifier>{F2A442F8-9E82-3A66-92F4-E4724A516C31}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Chess\Chess.Build.cs">
+      <Filter>Source\Chess</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Chess\Chess.cpp">
+      <Filter>Source\Chess</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Chess\Chess.h">
+      <Filter>Source\Chess</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Chess\ChessGameModeBase.cpp">
+      <Filter>Source\Chess</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Chess\ChessGameModeBase.h">
+      <Filter>Source\Chess</Filter>
+    </ClInclude>
+    <Filter Include="Source\Chess\Private">
+      <UniqueIdentifier>{43D3136E-FEAF-334E-A338-64416E198681}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Chess\Private\Chess_GameField.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chess\Private\Chess_GameInstance.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chess\Private\Chess_GameMode.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chess\Private\Chess_HumanPlayer.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chess\Private\Chess_MinimaxPlayer.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chess\Private\Chess_PlayerController.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chess\Private\Chess_PlayerInterface.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chess\Private\Chess_RandomPlayer.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chess\Private\DynamicPiece.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chess\Private\Historical.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chess\Private\Move.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chess\Private\Square.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Chess\Public">
+      <UniqueIdentifier>{E6B843FF-30C5-3E26-9D74-4C5EE45E9E39}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Chess\Public\Chess_GameField.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Chess\Public\Chess_GameInstance.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Chess\Public\Chess_GameMode.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Chess\Public\Chess_HumanPlayer.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Chess\Public\Chess_MinimaxPlayer.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Chess\Public\Chess_PlayerController.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Chess\Public\Chess_PlayerInterface.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Chess\Public\Chess_RandomPlayer.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Chess\Public\DynamicPiece.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Chess\Public\Historical.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Chess\Public\Move.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Chess\Public\Square.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
